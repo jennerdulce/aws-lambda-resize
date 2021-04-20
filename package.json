@@ -1,0 +1,25 @@
+{
+  "name": "aws-lambda-resize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennerdulce/aws-lambda-resize.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennerdulce/aws-lambda-resize/issues"
+  },
+  "homepage": "https://github.com/jennerdulce/aws-lambda-resize#readme",
+  "dependencies": {
+    "aws-sdk": "^2.889.0",
+    "sharp": "^0.28.1",
+    "util": "^0.12.3"
+  }
+}
