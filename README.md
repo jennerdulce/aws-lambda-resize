@@ -76,6 +76,9 @@
 
 - aws commands in the terminal were not working out. So I figured that I can manually go into the AWS console VIA Browser and create the function and tests there. Worked out fine!
 
+- There was an error telling me to delete `sharp` from my `node_modules` folder and npm install. This wasnt working
+    - I needed a different version of sharp to install and this was the terminal input `npm install --arch=x64 --platform=linux sharp`
+
 ## Results
 
 - I am able to upload images to the main bucket named `jddimage`. A lambda function is triggered upon a new creation of an object which then takes the uploaded image, resizes it to 50px and uploads the newly resized imaged to a DIFFERENT bucket named `jddimage-resized`
